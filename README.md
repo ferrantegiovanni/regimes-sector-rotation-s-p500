@@ -77,7 +77,7 @@ R/                                   generic modules and data pipeline
 
 dati/                                local data, not in the repository (LSEG licence)
 
-studi/        regimes, sector rotation and construction
+studi/                               regimes, sector rotation and construction
   RegimeSettori.R                    study 1: hidden Markov model regimes
   RotazioneCiclo.R                   study 2: business-cycle and monetary-policy regimes
   CostruzioneCiclo.R                 study 3: construction methods on a fixed signal
