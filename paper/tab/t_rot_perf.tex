@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Sector rotation with and without regime signals, net of costs}\label{tab:rotperf}
+\setbox0\hbox{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Strategy & Return & Volatility & Sharpe & Max drawdown & Turnover & vs unconditional & t-stat \\
+\midrule
+\multicolumn{8}{l}{\textit{No regime}} \\
+Equal-weight sectors & 10.48\% & 14.70\% & 0.64 & $-$50.49\% & 1.75\% & -- & -- \\
+Unconditional rotation & 9.02\% & 17.01\% & 0.50 & $-$50.71\% & 7.29\% & -- & -- \\
+\addlinespace
+\multicolumn{8}{l}{\textit{Statistical and rule-based regimes}} \\
+HMM regime rotation & 8.85\% & 16.84\% & 0.49 & $-$51.03\% & 10.08\% & $-$0.19\% & $-$0.30 \\
+SMA regime rotation & 7.07\% & 16.45\% & 0.40 & $-$50.52\% & 15.39\% & $-$1.92\%$^{*}$ & $-$1.72 \\
+Trend regime rotation & 10.03\% & 16.82\% & 0.56 & $-$47.84\% & 10.16\% & 0.89\% & 0.72 \\
+\addlinespace
+\multicolumn{8}{l}{\textit{Economic regimes}} \\
+Business-cycle rotation & 8.20\% & 15.99\% & 0.47 & $-$52.88\% & 12.20\% & $-$0.93\% & $-$0.91 \\
+Monetary-policy rotation & 8.99\% & 16.31\% & 0.51 & $-$53.08\% & 11.52\% & $-$0.15\% & $-$0.10 \\
+\addlinespace
+\multicolumn{8}{l}{\textit{Index}} \\
+Benchmark (S\&P 500 TR) & 11.11\% & 14.90\% & 0.67 & $-$50.95\% & -- & -- & -- \\
+\bottomrule
+\end{tabular}}%
+\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{\box0}\else\box0\fi
+\par\vspace{3pt}
+\parbox{0.95\linewidth}{\footnotesize Three TRBC economic sectors held, equally weighted, cap-weighted within each sector; monthly rebalancing; 10 bp per side. The last two columns report the mean annualised difference from the unconditional rotation and its Newey-West t-statistic.}
+\end{table}

@@ -1,0 +1,6 @@
+"Group","Variant","Annualized return","Annualized volatility","Sharpe ratio","Average monthly turnover","Effective number of stocks","Largest weight"
+"5% weight cap","Cap-weighted, 5% cap","9.95%","17.99%","0.53","12.19%","47.2","5.0%"
+"5% weight cap","Equal risk contribution, 5% cap","7.91%","16.92%","0.44","16.44%","110.9","2.8%"
+"5% weight cap","Minimum variance, 5% cap","7.50%","14.07%","0.47","24.00%","25.0","5.0%"
+"Common set","Previous study: all candidates (sectors EW, cap within)","8.20%","15.99%","0.47","12.20%","",""
+"Common set","This study: common set (sectors EW, cap within)","7.90%","15.86%","0.45","12.23%","42.8","8.3%"

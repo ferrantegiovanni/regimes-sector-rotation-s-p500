@@ -1,0 +1,7 @@
+"Strategy","Stocks held","Effective number of stocks","Largest weight","Largest sector weight","Ex-ante volatility","Realized volatility (gross)","Market beta"
+"Sectors EW, cap-weighted within","135","42.8","8.3%","33.3%","14.4%","15.8%","0.91"
+"Equal-weighted","135","134.9","0.8%","45.6%","15.9%","19.0%","1.12"
+"Cap-weighted","135","25.5","14.0%","65.6%","15.4%","17.7%","1.01"
+"Inverse volatility","135","124.3","1.6%","46.1%","14.3%","17.5%","1.03"
+"Equal risk contribution","135","110.7","2.9%","46.1%","13.3%","16.9%","1.00"
+"Minimum variance","28","16.3","12.5%","50.6%","8.9%","13.9%","0.70"

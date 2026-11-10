@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{Construction methods: weight cap and common set of stocks, net of costs}\label{tab:cosrob}
+\setbox0\hbox{%
+\begin{tabular}{lrrrrr}
+\toprule
+Variant & Return & Volatility & Sharpe & Turnover & Eff. stocks \\
+\midrule
+\multicolumn{6}{l}{\textit{5\% weight cap}} \\
+Cap-weighted, 5\% cap & 9.95\% & 17.99\% & 0.53 & 12.19\% & 47.2 \\
+Equal risk contribution, 5\% cap & 7.91\% & 16.92\% & 0.44 & 16.44\% & 110.9 \\
+Minimum variance, 5\% cap & 7.50\% & 14.07\% & 0.47 & 24.00\% & 25.0 \\
+\addlinespace
+\multicolumn{6}{l}{\textit{Common set}} \\
+Previous study: all candidates (sectors EW, cap within) & 8.20\% & 15.99\% & 0.47 & 12.20\% & -- \\
+This study: common set (sectors EW, cap within) & 7.90\% & 15.86\% & 0.45 & 12.23\% & 42.8 \\
+\bottomrule
+\end{tabular}}%
+\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{\box0}\else\box0\fi
+\end{table}

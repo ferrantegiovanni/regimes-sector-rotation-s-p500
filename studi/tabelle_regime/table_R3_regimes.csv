@@ -1,0 +1,5 @@
+"Regime model","Months","Share of adverse months","Regime switches","Market return after favorable","Market return after adverse","Market volatility after favorable","Market volatility after adverse"
+"HMM (2 states)",257,"8.2%",10,"11.13%","20.18%","14.33%","24.46%"
+"10-month moving average",257,"19.8%",30,"12.03%","11.23%","11.70%","25.41%"
+"24-month market return",257,"12.5%",10,"11.08%","17.45%","13.64%","24.50%"
+"HMM (3 states)",257,"4.3%",4,"","","",""

@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{Construction methods on the stocks selected by the business-cycle rotation, net of costs}\label{tab:cosperf}
+\setbox0\hbox{%
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & Return & Volatility & Sharpe & Max drawdown & Turnover & Eff. stocks & Max weight & Beta \\
+\midrule
+Sectors EW, cap-weighted within & 7.90\% & 15.86\% & 0.45 & $-$52.78\% & 12.23\% & 42.8 & 8.3\% & 0.91 \\
+Equal-weighted & 7.99\% & 19.01\% & 0.41 & $-$57.48\% & 14.91\% & 134.9 & 0.8\% & 1.12 \\
+Cap-weighted & 10.65\% & 17.69\% & 0.57 & $-$51.64\% & 10.86\% & 25.5 & 14.0\% & 1.01 \\
+Inverse volatility & 8.03\% & 17.50\% & 0.44 & $-$54.20\% & 15.72\% & 124.3 & 1.6\% & 1.03 \\
+Equal risk contribution & 7.91\% & 16.91\% & 0.44 & $-$52.02\% & 16.46\% & 110.7 & 2.9\% & 1.00 \\
+Minimum variance & 7.72\% & 13.90\% & 0.49 & $-$47.06\% & 25.27\% & 16.3 & 12.5\% & 0.70 \\
+Benchmark (S\&P 500 TR) & 11.11\% & 14.90\% & 0.67 & $-$50.95\% & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}}%
+\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{\box0}\else\box0\fi
+\par\vspace{3pt}
+\parbox{0.95\linewidth}{\footnotesize All methods weight the same stocks at each date (members of the three selected sectors with a complete 60-month return history). Effective number of stocks: inverse of the sum of squared weights, averaged over formation dates. Market beta from a market-model regression of net excess returns.}
+\end{table}

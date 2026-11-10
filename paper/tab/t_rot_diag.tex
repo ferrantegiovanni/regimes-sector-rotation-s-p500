@@ -1,0 +1,34 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Regimes in the backtest sample and the market in the following month}\label{tab:rotdiag}
+\setbox0\hbox{%
+\begin{tabular}{lrrrr}
+\toprule
+Regime & Share & Switches & Market return & Market volatility \\
+\midrule
+\multicolumn{5}{l}{\textit{HMM (2 states)}} \\
+Favourable & 91.8\% & 10 & 11.13\% & 14.33\% \\
+Adverse & 8.2\% & 10 & 20.18\% & 24.46\% \\
+\addlinespace
+\multicolumn{5}{l}{\textit{10-month moving average}} \\
+Favourable & 80.2\% & 30 & 12.03\% & 11.70\% \\
+Adverse & 19.8\% & 30 & 11.23\% & 25.41\% \\
+\addlinespace
+\multicolumn{5}{l}{\textit{24-month market return}} \\
+Favourable & 87.5\% & 10 & 11.08\% & 13.64\% \\
+Adverse & 12.5\% & 10 & 17.45\% & 24.50\% \\
+\addlinespace
+\multicolumn{5}{l}{\textit{Business cycle}} \\
+Above trend & 77.8\% & 4 & 13.35\% & 12.86\% \\
+Below trend & 22.2\% & 4 & 6.70\% & 22.07\% \\
+\addlinespace
+\multicolumn{5}{l}{\textit{Monetary policy}} \\
+Expansionary & 58.8\% & 5 & 11.48\% & 16.70\% \\
+Restrictive & 41.2\% & 5 & 12.43\% & 13.28\% \\
+\bottomrule
+\end{tabular}}%
+\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{\box0}\else\box0\fi
+\par\vspace{3pt}
+\parbox{0.95\linewidth}{\footnotesize Share of the 257 formation months in each regime, number of regime switches, and annualised mean and volatility of the market return (Kenneth French) in the month after the regime is observed. Descriptive only: no strategy uses these figures.}
+\end{table}

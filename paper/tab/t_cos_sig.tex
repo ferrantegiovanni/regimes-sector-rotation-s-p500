@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Construction methods against equal weighting}\label{tab:cossig}
+\setbox0\hbox{%
+\begin{tabular}{lrrr}
+\toprule
+Comparison & Estimate & t-stat & p-value \\
+\midrule
+\multicolumn{4}{l}{\textit{Return difference versus equal-weighted}} \\
+Sectors EW, cap-weighted within minus Equal-weighted & $-$0.67\% & $-$0.51 & 0.610 \\
+Cap-weighted minus Equal-weighted & 2.16\% & 1.20 & 0.229 \\
+Inverse volatility minus Equal-weighted & $-$0.25\% & $-$0.43 & 0.670 \\
+Equal risk contribution minus Equal-weighted & $-$0.47\% & $-$0.59 & 0.558 \\
+Minimum variance minus Equal-weighted & $-$1.14\% & $-$0.48 & 0.628 \\
+\addlinespace
+\multicolumn{4}{l}{\textit{Volatility versus equal-weighted (Pitman-Morgan), net}} \\
+Sectors EW, cap-weighted within minus Equal-weighted & ratio 0.834$^{***}$ & $-$10.03 & 0.000 \\
+Cap-weighted minus Equal-weighted & ratio 0.931$^{***}$ & $-$2.92 & 0.004 \\
+Inverse volatility minus Equal-weighted & ratio 0.921$^{***}$ & $-$11.15 & 0.000 \\
+Equal risk contribution minus Equal-weighted & ratio 0.890$^{***}$ & $-$12.46 & 0.000 \\
+Minimum variance minus Equal-weighted & ratio 0.731$^{***}$ & $-$9.44 & 0.000 \\
+\bottomrule
+\end{tabular}}%
+\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{\box0}\else\box0\fi
+\par\vspace{3pt}
+\parbox{0.95\linewidth}{\footnotesize Return differences: mean annualised difference with Newey-West t-statistics. Volatility: ratio of the volatility of each method to that of the equal-weighted portfolio, with the Pitman-Morgan test for paired samples.}
+\end{table}
