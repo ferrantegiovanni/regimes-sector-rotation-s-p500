@@ -47,7 +47,7 @@ None of the three regime definitions improves sector rotation. The reason differ
 
 ### 2. Construction methods with a fixed signal
 
-The same stocks (those selected by the business-cycle rotation) are weighted by six methods:
+The same stocks (those selected by the business-cycle rotation) are weighted by five methods:
 
 | Method | Annual return | Volatility | Sharpe | Max drawdown | Effective no. of stocks |
 |---|---|---|---|---|---|
