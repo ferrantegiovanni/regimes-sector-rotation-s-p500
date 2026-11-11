@@ -47,15 +47,17 @@ None of the three regime definitions improves sector rotation. The reason differ
 
 ### 2. Construction methods with a fixed signal
 
-The same stocks (those selected by the business-cycle rotation) are weighted by five methods:
+The same stocks (those selected by the business-cycle rotation) are weighted by six methods:
 
 | Method | Annual return | Volatility | Sharpe | Max drawdown | Effective no. of stocks |
 |---|---|---|---|---|---|
+| Sectors equal-weighted, cap-weighted within (reference) | 7.90% | 15.9% | 0.45 | −52.8% | 43 |
 | Equal-weighted | 7.99% | 19.0% | 0.41 | −57.5% | 135 |
 | Cap-weighted | 10.65% | 17.7% | 0.57 | −51.6% | 25 |
 | Inverse volatility | 8.03% | 17.5% | 0.44 | −54.2% | 124 |
 | Equal risk contribution | 7.91% | 16.9% | 0.44 | −52.0% | 111 |
 | Minimum variance (Ledoit-Wolf) | 7.72% | 13.9% | 0.49 | −47.1% | 16 |
+
 
 **Construction changes risk, not return.**
 - **Return**: no method's return differs significantly from equal-weighting.
